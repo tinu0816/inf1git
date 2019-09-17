@@ -21,7 +21,7 @@ class Lesson(ModuleElement):
         "constructor for class lesson"
 
         # call super class constructor
-        ModuleElement.__init__(self,module)
+        ModuleElement.__init__(self,module)   
 
 
     def add_important_date(self,date):
